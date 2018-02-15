@@ -1,0 +1,8 @@
+Jan 15, 2018 11:48:51 PM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Jan 15, 2018 11:48:51 PM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project ValidationPract-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Jan 15, 2018 11:49:02 PM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'ValidationPract-common' successfully on Worklight Server
+Jan 16, 2018 11:56:38 AM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project ValidationPract-project-customization

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.WebProject">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry kind="con" path="com.ibm.etools.webtools.dojo.jscontainer"/>
+	<classpathentry excluding="toolkit/pre-built/layers/mobile-ui-layer.js|toolkit/**/node_modules/*|toolkit/dojo/|toolkit/extras/layers/mobile-compat-layer.js|toolkit/pre-built/dojox/mobile/deviceTheme.js|toolkit/extras/layers/mobile-compat-layer.js.uncompressed.js|toolkit/extras/layers/mobile-ui-layer.js.uncompressed.js|toolkit/extras/dojo/dojo.js.uncompressed.js|toolkit/pre-built/layers/core-web-layer.js|toolkit/**/*.min.js|toolkit/**/bower_components/*|toolkit/pre-built/dojo/dojo.js|toolkit/extras/dojox/mobile/deviceTheme.js.uncompressed.js|toolkit/extras/layers/core-web-layer.js.uncompressed.js" kind="src" path=""/>
+	<classpathentry kind="output" path=""/>
+</classpath>

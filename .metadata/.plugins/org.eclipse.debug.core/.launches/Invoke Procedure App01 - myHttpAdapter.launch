@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.worklight.studio.plugin.launch.invoke.procedure.configurationType">
+<stringAttribute key="adapterName" value="myHttpAdapter"/>
+<stringAttribute key="jsFunctionParameters" value=""/>
+<stringAttribute key="procedureName" value="getCurrent"/>
+<stringAttribute key="projectName" value="App01"/>
+</launchConfiguration>

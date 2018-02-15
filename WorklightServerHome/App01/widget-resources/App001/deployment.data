@@ -1,0 +1,17 @@
+#Deployment data.
+#Thu Dec 28 10:35:20 IST 2017
+app.login.displaytype=POPUP
+app.displayname=App001
+app.height=460
+app.author.name=application's author
+app.author.email=application author's e-mail
+app.version=1.0
+app.environment=common
+app.unpacked.size.default=2949629
+app.description=App001
+app.mainfile=App001.html
+app.login.popup.width=920
+app.checksum.default=2966427555
+app.width=320
+app.login.popup.height=610
+app.id=App001

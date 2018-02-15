@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.worklight.studio.plugin.launch.preview.configurationType">
+<stringAttribute key="applicationName" value="FirstApp"/>
+<stringAttribute key="environmentName" value="mobilewebapp"/>
+<stringAttribute key="projectName" value="FirstApp"/>
+</launchConfiguration>

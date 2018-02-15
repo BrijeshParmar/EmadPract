@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sqadapter</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+<link rel="stylesheet" href="css/main.css">
+<script>window.$ = window.jQuery = WLJQ;</script>
+</head>
+<body id="content" style="display: none;">
+	<div data-role="page" id="login" data-theme="b">
+		<h1>User Login</h1>
+		<br> <input type="email" id="luserid" placeholder="Enter Email"><br>
+		<input type="password" id="lpassword" placeholder="Enter Password"><br>
+		<input type="button" onclick="loginfunction();" value="Login"><br>
+		<a href="#register">Not a member ,Click here</a>
+
+	</div>
+	<div data-role="page" id="register" data-theme="c">
+		<h1>Register</h1>
+		<input type="email" id="ruserid" placeholder="Enter Email/Userid"><br>
+		<input type="password" id="rpassword" placeholder="Enter Password"><br>
+		<input type="text" id="rname" placeholder="Name"><br> <input
+			type="text" id="rage" placeholder="Enter Age here"><br>
+		<input type="button" onclick="registerfunction();" value="Register"><br>
+	</div>
+	<script src="js/initOptions.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/messages.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Compass</title>
+
+<link rel="stylesheet" type="text/css"
+	href="../../dojo/dijit/themes/dijit.css">
+<link rel="stylesheet" type="text/css"
+	href="../../dojo/dijit/themes/claro/claro.css">
+
+<script type="text/javascript"
+	data-dojo-config="isDebug: false, parseOnLoad: true,  paths: {'widgets' : '../../sim/widgets'}"
+	src="../../dojo/dojo/dojo.js">
+	
+</script>
+
+<script type="text/javascript">
+	require(["dojo/ready", "dojo/_base/lang", "dojo/_base/connect","widgets/Wifi"], function(ready, lang, connect, WIFI){
+	    ready(function(){
+		    var c = new WIFI({
+		        ssid : "barak",
+		        mac : "asdfkljalsd",
+		        signal : 90,
+		        wifiId : 33,
+		    }, dojo.byId("wifi1"));
+		    c.startup();
+	    });
+    });
+</script>
+
+</head>
+<body class="claro">
+	<div id="wifi1"></div>
+ 	<span data-dojo-type="widgets.Wifi"
+ 	data-dojo-props="ssid : 'barak',
+		        mac : 'Heading',
+		        signal : 30,
+		        wifiId : 30"></span>
+</body>
+</html>

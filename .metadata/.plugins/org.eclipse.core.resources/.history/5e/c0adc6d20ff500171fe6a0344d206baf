@@ -1,0 +1,78 @@
+/*
+* Licensed Materials - Property of IBM
+* 5725-G92 (C) Copyright IBM Corp. 2006, 2013. All Rights Reserved.
+* US Government Users Restricted Rights - Use, duplication or
+* disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+function wlCommonInit(){
+
+	
+}
+
+
+function registerfunction()
+{
+	var uid,pwd,name,age;
+	uid=$('#ruserid').val();
+	pwd=$('#rpassword').val();
+	name=$('rname').val();
+	age=$('#rage').val();
+	
+	invocationData={
+			adapter:'MySqlAdapter',
+			procedure:'register',
+			parameters:[uid,pwd,name,age]
+	};
+	options={
+			onSuccess:registerSuccess,
+			onFailure:registerFailed
+			
+	};
+	
+	WL.Client.invokeProcedure(invocationData, options);
+	
+	
+}
+
+function loginfunction()
+{
+	var uid,pwd;
+	uid=$('#luserid').val();
+	pwd=$('#lpassword').val();
+	
+	invocationData={
+			adapter:'MySqlAdapter',
+			procedure:'login',
+			parameters:[uid,pwd]
+	};
+	options={
+			onSuccess:loginSuccess,
+			onFailure:loginFailed
+	};
+	
+	WL.Client.invokeProcedure(invocationData, options);
+	
+}
+
+
+function loginSuccess(result){
+	var rs=result.invocationResult.resultSet;
+	if(rs.length==1){
+		alert('Login Successfull');
+		window.location.assign("#home");
+		$('#1'.val("Welcome + "))
+	}
+	
+}
+
+function loginFailed(){
+	alert('Login failed due to server issues,please check your connection');
+}
+
+function registerSuccess(result){
+	
+}
+function registerFailed(){
+	alert('Registration failed due to server issues,please check your connection');
+}

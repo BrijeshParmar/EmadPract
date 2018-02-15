@@ -1,0 +1,75 @@
+<div id="geoloc">
+	<div data-dojo-type="dijit.TitlePane" data-dojo-props="title: 'Coordinates'">
+	<table style="cellspacing: 10; width: 100%">
+		<tr>
+			<td>
+			<label id="sim_geoloc_longitude_label" for="geoLng"></label><br>
+			<input type="text" name="geoLng" value="" style="width: 120px"
+				data-dojo-type="dijit.form.TextBox" id="geoLng"  data-dojo-id="sim_geoloc_geoLng"/>
+				</td>
+							<td><label id="sim_geoloc_latitude_label" for="geoLat"></label><br>
+			<input type="text" name="geoLat" value="" style="width: 120px"
+				data-dojo-type="dijit.form.TextBox" id="geoLat" data-dojo-id="sim_geoloc_geoLat" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<label id="sim_geoloc_accuracy_label" for="geoAcc"></label><br>
+			<input type="text" name="geoAcc" value="" style="width: 120px"
+				data-dojo-type="dijit.form.TextBox" id="geoAcc"  data-dojo-id="sim_geoloc_geoAcc"/>
+			</td>
+			
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+			<label id="sim_geoloc_altitude_label" for="geoAlt"></label><br>
+			<input type="text" name="geoAlt" value="" style="width: 120px" 
+				data-dojo-type="dijit.form.TextBox" id="geoAlt"  data-dojo-id="sim_geoloc_geoAlt"/>
+			</td>
+			<td>
+			<label id="sim_geoloc_altitudeAccuracy_label" for="geoAltAcc"></label><br>
+			<input type="text" name="geoAltAcc" value="" style="width: 120px"
+
+				data-dojo-type="dijit.form.TextBox" id="geoAltAcc" data-dojo-id="sim_geoloc_geoAltAcc" />
+			</td>
+			
+			
+		</tr>
+		<tr>
+			<td>
+			<label id="sim_geoloc_heading_label" for="geoHead"></label><br>
+			<input type="text" name="geoHead" value="" style="width: 120px"
+				data-dojo-type="dijit.form.TextBox" id="geoHead"  data-dojo-id="sim_geoloc_geoHead"/>
+			</td>
+			<td><label id="sim_geoloc_velocity_label" for="geoVel"></label><br>
+			<input type="text" name="geoVel" value="" style="width: 120px"
+				data-dojo-type="dijit.form.TextBox" id="geoVel"  data-dojo-id="sim_geoloc_geoVel"/>
+			</td>
+			
+		</tr>
+		<tr>
+			<td>
+			<button data-dojo-type="dijit.form.Button" id="applyBtn" type="button" class="noSelect"
+		data-dojo-id="sim_geoloc_apply_button"></button>
+			</td>
+		</tr>
+	</table>
+	</div>
+	<div data-dojo-type="dijit.TitlePane" data-dojo-props="title: 'Map'">
+	<button data-dojo-type="dijit.form.Button" id="nextBtn" type="button" class="noSelect"
+		data-dojo-id="sim_geoloc_next_button"
+		onClick="getService('Geolocation').updateGeolocation(true);"></button>
+	<button data-dojo-type="dijit.form.Button" id="startStopBtn" class="noSelect"
+		type="button" data-dojo-id="sim_geoloc_startStop_button"
+		onClick="getService('Geolocation').startStopTimer();"></button>
+	<div id="geolocationMapDiv"></div>
+	<select name="errorType" data-dojo-type="dijit.form.Select" data-dojo-id="sim_geoloc_error_type_select_button" >
+	    <option value="1">PERMISSION_DENIED</option>
+	    <option value="2" selected="selected">POSITION_UNAVAILABLE</option>
+	    <option value="3">TIMEOUT</option>
+	</select>
+	<button data-dojo-type="dijit.form.Button" type="button" data-dojo-id="sim_geoloc_error_button" class="noSelect"
+		onClick="getService('Geolocation').generateError();"></button>
+	  </div>
+</div>

@@ -1,0 +1,98 @@
+<div id="networkSection">
+	<div id="networkForm"><label>Data connection:</label>
+	</div>
+	<br>
+
+	<div data-dojo-type="dijit.TitlePane"
+		data-dojo-props="title: 'Access Points'">
+
+		<div id="wifiDialog" data-dojo-type="dijit.Dialog"
+			data-dojo-id="wifi_dialog">
+			<div data-dojo-type="dijit.form.Form" id="wifi-form" data-dojo-id="wifiForm"
+				 >
+				<input data-dojo-type="dijit.form.TextBox" type="hidden"
+						name="wifiId" id="wifiId">
+				<input data-dojo-type="dijit.form.TextBox" type="hidden"
+						name="connected" id="wifi-add-connected" value="false">
+				<table>
+				<tr>
+					<td><label for="wifi-add-ssid">SSID: </label></td>
+					<td>
+					<input type="text" name="SSID" id="wifi-add-ssid" value=""
+				    maxLength="17"
+				    dojoType="dijit.form.ValidationTextBox"
+				    required = "true"
+				    trim="true"
+				    missingMessage="<p class='help'>SSID cannot be empty</p>">
+				    
+				</tr>
+				<tr>
+					<td><label for="wifi-add-mac">MAC: </label></td>
+					<td>
+					
+					<input type="text" name="MAC" id="wifi-add-mac" value=""
+				    maxLength="17"
+				    dojoType="dijit.form.ValidationTextBox"
+				    regExp="[A-Fa-f0-9:]+"
+				    trim="true"
+				    lowercase="true"
+				    invalidMessage="<p class='help'>MAC should contain only Hex numbers or ':'</p>">
+						</td>
+				</tr>
+				<tr>
+					<td><label for="wifi-add-signal">Signal(%): </label></td>
+					<td><input id="wifi-add-signal"
+					    type="text"
+					    data-dojo-type="dijit.form.NumberTextBox"
+					    name= "strength"
+					    value="100"
+					    constraints="{min:1,max:100,places:0}"
+					    required="true"
+					    invalidMessage= "Invalid signal strength (1-100%)">
+				</tr>
+				<tr>
+					<td><label for="wifi-add-visible">Visible</label></td>
+					<td>
+					<input id="wifi-add-visible" name="visible"
+					 data-dojo-type="dijit.form.CheckBox" 
+					  checked > 
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2">
+						<button data-dojo-type="dijit.form.Button" type="button" id="addAccessPointButton">OK</button>
+						<button data-dojo-type="dijit.form.Button" type="button" id="cancelAddWifi">Cancel</button>
+					</td>
+				</tr>
+			</table>
+				
+			</div>
+		</div>
+
+		<div id="sim_network_add_wifi_button-wrapper" >
+			<button id="buttonOne" data-dojo-type="dijit.form.Button"
+				type="button">
+				Add Access Point
+				<script type="dojo/method" data-dojo-event="onClick"
+					data-dojo-args="evt">
+        dijit.byId("wifiDialog").show();
+	    </script>
+			</button>
+		</div>
+		<!-- <table  id="container"></table> -->
+				
+		<div id="wifiContainer" style="margin: 5px 0"></div>
+		<div id="sim_network_error_wrapper" >
+		<select name="errorType" data-dojo-type="dijit.form.Select" data-dojo-id="sim_wifi_error_type_select" style="width :150px" >
+		    <option value="0">PERMISSION</option>
+		    <option value="1" selected="selected">DISABLED</option>
+		    <option value="2">FAILED_START_SCAN</option>
+		</select>
+		<button data-dojo-type="dijit.form.Button" type="button" data-dojo-id="sim_wifi_error_button" class="noSelect"
+			onClick="getService('WifiPlugin').generateError();"></button>
+		</div>
+
+	</div>
+</div>
+
+

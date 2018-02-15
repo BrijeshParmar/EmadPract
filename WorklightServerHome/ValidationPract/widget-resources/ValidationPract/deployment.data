@@ -1,0 +1,17 @@
+#Deployment data.
+#Mon Jan 15 23:49:01 IST 2018
+app.login.displaytype=POPUP
+app.displayname=ValidationPract
+app.height=460
+app.author.name=application's author
+app.author.email=application author's e-mail
+app.version=1.0
+app.environment=common
+app.unpacked.size.default=774303
+app.description=ValidationPract
+app.mainfile=ValidationPract.html
+app.login.popup.width=920
+app.checksum.default=1066929252
+app.width=320
+app.login.popup.height=610
+app.id=ValidationPract

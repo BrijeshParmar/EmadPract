@@ -1,0 +1,207 @@
+Dec 28, 2017 10:10:23 AM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Dec 28, 2017 10:10:23 AM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project App01-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Dec 28, 2017 10:10:38 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'App001-common' successfully on Worklight Server
+Dec 28, 2017 10:15:18 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'App001-common' successfully on Worklight Server
+Dec 28, 2017 10:23:27 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'App001-common' successfully on Worklight Server
+Dec 28, 2017 10:27:34 AM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project App01-project-customization
+Dec 28, 2017 10:35:04 AM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Dec 28, 2017 10:35:04 AM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project App01-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Dec 28, 2017 10:35:22 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'App001-common' successfully on Worklight Server
+Dec 31, 2017 1:02:54 AM com.worklight.server.bundle.api.ExtendedHttpServiceBase stop
+SEVERE: FWLSE4006E: Failed to unregister filters or aliases: Filter not found..
+java.lang.IllegalArgumentException: Filter not found.
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregisterFilter(HttpServiceImpl.java:116)
+	at com.worklight.studio.plugin.osgi.EquinoxExtendedHttpService.unregisterFilterWithDelegate(EquinoxExtendedHttpService.java:42)
+	at com.worklight.studio.plugin.osgi.EquinoxExtendedHttpService.unregisterFilterWithDelegate(EquinoxExtendedHttpService.java:24)
+	at com.worklight.server.bundle.api.ExtendedHttpServiceBase.stop(ExtendedHttpServiceBase.java:160)
+	at com.worklight.studio.plugin.Activator.stop(Activator.java:86)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+Dec 31, 2017 1:02:54 AM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project App01-project-customization
+Jan 04, 2018 9:58:33 AM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Jan 04, 2018 9:58:34 AM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project App01-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Jan 04, 2018 9:58:36 AM com.worklight.integration.services.impl.DeployServiceImpl syncAdaptersFromDB
+INFO: FWLSE0084I: Deployed adapter 'myHttpAdapter' successfully.
+Jan 04, 2018 11:33:25 AM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project App01-project-customization
+Jan 05, 2018 10:41:12 AM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Jan 05, 2018 10:41:12 AM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project App01-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Jan 05, 2018 10:41:14 AM com.worklight.integration.services.impl.DeployServiceImpl syncAdaptersFromDB
+INFO: FWLSE0084I: Deployed adapter 'myHttpAdapter' successfully.
+Jan 05, 2018 10:42:16 AM com.worklight.integration.model.InvocationContext
+SEVERE: FWLSE0099E: An error occurred while invoking procedure myHttpAdapter/HttpRequestFWLSE0100E:  parameters:{
+   "arr": [
+      {
+         "method": "get",
+         "path": "\/latest",
+         "returnedContentType": "json"
+      }
+   ]
+}
+Failed to parse JSON string
+<html>
+<head>
+<style type="text/css">
+a:link, a:visited {
+  color: #000099;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+body {
+  font-family:  "Trebuchet MS",Arial,sans-serif;
+  font-size: 13px;
+  color:#333;
+  text-align:center;
+}
+
+div#ctr {
+  margin: 0 auto;
+  width:550px;
+  padding:0;
+  text-align: left ! important;
+}
+
+div#detail {
+  margin-top: 1em;
+  padding:6px;
+  border:1px dotted blue;
+}
+
+h1 {
+  font-size:23px;
+}
+
+h2 {
+  font-size:18px;
+  margin-bottom:0;
+}
+
+h3 {
+  color:#666;
+  margin-bottom:0;
+}
+
+
+li {
+margin-bottom:1em;
+}
+
+img {
+border:0;
+}
+
+
+</style>
+</head>
+<body>
+<div id="ctr"><a href="https://feedburner.google.com"><img src="//feedburner.google.com/fb/images/v2logo_white.gif" atl="logo" width="230" height="42" /></a>
+<h1>There has been an error of some kind. Ack!</h1>
+<h2>FeedBurner could not deliver this feed to you because of the specific problem listed below:</h2>
+<div id="detail">
+<p><strong>Feed Address:</strong> <script type="text/javascript">document.write(location.protocol + "//" + encodeURI(location.host + location.pathname))</script></p>
+<p><strong>HTTP Error (Code) and Message:</strong> (404) Feed not found error: FeedBurner cannot locate this feed URI.</p>
+</div>
+<h3>What can I do about this?</h3>
+<ol>
+<li><strong>If you are a potential or current subscriber,</strong> contact the publisher to notify them that their feed content is not available. This may be temporary problem that requires their intervention to resolve, or the publisher may have permanently removed the feed from FeedBurner.</li>
+<li><strong>If you are the publisher of this feed,</strong> sign into FeedBurner and visit your feed's &ldquo;Troubleshootize&rdquo; tab to view FeedMedic, our automated diagnostic report for your feed. A cause for the problem, and tips for troubleshooting it, may be found there.</li>
+</ol>
+</body>
+</html>
+FWLSE0101E: Caused by: java.io.IOException: Unexpected character '<' on line 1, column 1
+Jan 05, 2018 10:47:26 AM com.worklight.integration.services.impl.DeployServiceImpl syncAdaptersFromDB
+INFO: FWLSE0084I: Deployed adapter 'myHttpAdapter' successfully.
+Jan 05, 2018 10:48:32 AM com.worklight.integration.model.InvocationContext
+SEVERE: FWLSE0099E: An error occurred while invoking procedure myHttpAdapter/HttpRequestFWLSE0100E:  parameters:{
+   "arr": [
+      {
+         "method": "get",
+         "path": "rssfeeds\/-2128821153.cms",
+         "returnedContentType": "json"
+      }
+   ]
+}
+Http request failed: java.net.UnknownHostException: https://timesofindia.indiatimes.com
+FWLSE0101E: Caused by: java.net.UnknownHostException: https://timesofindia.indiatimes.com
+Jan 05, 2018 10:49:23 AM com.worklight.integration.services.impl.DeployServiceImpl syncAdaptersFromDB
+INFO: FWLSE0084I: Deployed adapter 'myHttpAdapter' successfully.
+Jan 05, 2018 10:51:03 AM com.worklight.integration.model.InvocationContext
+SEVERE: FWLSE0099E: An error occurred while invoking procedure myHttpAdapter/HttpRequestFWLSE0100E:  parameters:{
+   "arr": [
+      {
+         "method": "get",
+         "path": "\/rssfeeds\/-2128821153.cms",
+         "returnedContentType": "json"
+      }
+   ]
+}
+Http request failed: org.apache.http.conn.HttpHostConnectException: Connection to https://timesofindia.indiatimes.com refused
+FWLSE0101E: Caused by: org.apache.http.conn.HttpHostConnectException: Connection to https://timesofindia.indiatimes.com refused
+Jan 05, 2018 10:51:28 AM com.worklight.integration.services.impl.DeployServiceImpl syncAdaptersFromDB
+INFO: FWLSE0084I: Deployed adapter 'myHttpAdapter' successfully.
+Jan 05, 2018 10:52:32 AM com.worklight.integration.model.InvocationContext
+SEVERE: FWLSE0099E: An error occurred while invoking procedure myHttpAdapter/HttpRequestFWLSE0100E:  parameters:{
+   "arr": [
+      {
+         "method": "get",
+         "path": "\/rssfeeds\/-2128821153.cms",
+         "returnedContentType": "xml"
+      }
+   ]
+}
+Http request failed: org.apache.http.conn.HttpHostConnectException: Connection to https://timesofindia.indiatimes.com refused
+FWLSE0101E: Caused by: org.apache.http.conn.HttpHostConnectException: Connection to https://timesofindia.indiatimes.com refused
+Jan 05, 2018 10:53:44 AM com.worklight.integration.services.impl.DeployServiceImpl syncAdaptersFromDB
+INFO: FWLSE0084I: Deployed adapter 'myHttpAdapter' successfully.
+Jan 05, 2018 10:54:56 AM com.worklight.integration.model.InvocationContext
+SEVERE: FWLSE0099E: An error occurred while invoking procedure myHttpAdapter/HttpRequestFWLSE0100E:  parameters:{
+   "arr": [
+      {
+         "method": "get",
+         "path": "\/rssfeeds\/-2128821153.cms",
+         "returnedContentType": "xml"
+      }
+   ]
+}
+Http request failed: org.apache.http.conn.HttpHostConnectException: Connection to https://timesofindia.indiatimes.com refused
+FWLSE0101E: Caused by: org.apache.http.conn.HttpHostConnectException: Connection to https://timesofindia.indiatimes.com refused
+Jan 07, 2018 11:35:22 PM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project App01-project-customization

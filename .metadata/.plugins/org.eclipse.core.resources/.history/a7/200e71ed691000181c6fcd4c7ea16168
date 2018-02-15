@@ -1,0 +1,5 @@
+package com.mail;
+
+public class PasswordMail {
+
+}

@@ -1,0 +1,17 @@
+#Deployment data.
+#Thu Dec 28 10:31:51 IST 2017
+app.login.displaytype=EMBEDDED
+app.displayname=FirstApp
+app.height=460
+app.author.name=application's author
+app.author.email=application author's e-mail
+app.version=1.0
+app.environment=mobilewebapp
+app.unpacked.size.default=792633
+app.description=FirstApp
+app.mainfile=FirstApp.html
+app.login.popup.width=920
+app.checksum.default=3181381196
+app.width=320
+app.login.popup.height=610
+app.id=FirstApp

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.worklight.studio.plugin.launch.build.app.configurationType">
+<stringAttribute key="applicationName" value="Calculator"/>
+<stringAttribute key="projectName" value="Calculator"/>
+</launchConfiguration>

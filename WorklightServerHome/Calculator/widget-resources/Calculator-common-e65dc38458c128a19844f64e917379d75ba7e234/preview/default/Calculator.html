@@ -1,0 +1,142 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta charset="UTF-8">
+
+        <title>Calculator</title>
+
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+
+        <link href="wlclient/css/wlclient.css" rel="stylesheet">
+        <link href="images/favicon.png" rel="shortcut icon">
+
+        <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+
+        <link href="jqueryMobile/jquery.mobile-1.3.1.css" rel="stylesheet">
+
+        <link href="css/Calculator.css" rel="stylesheet">
+
+        <script>
+
+		// Define WL namespace.
+
+		var WL = WL ? WL : {};
+
+
+
+		/**
+
+		 * WLClient configuration variables.
+
+		 * Values are injected by the deployer that packs the gadget.
+
+		 */
+
+		WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "Calculator",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "preview",
+   "HEIGHT": 460,
+   "LOGIN_DISPLAY_TYPE": "popup",
+   "LOGIN_POPUP_HEIGHT": 610,
+   "LOGIN_POPUP_WIDTH": 920,
+   "PREVIEW_ENVIRONMENT": "common",
+   "WIDTH": 320,
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/Calculator\/common\/"
+};</script>
+		<script src="common/js/wljq.js"></script>
+		<script src="common/js/base.js"></script>
+		<script src="common/js/containerCommunicationAPI.js"></script>
+		<script src="wlclient/js/messages.js"></script>
+		<script src="common/js/wlcommon.js"></script>
+		<script src="common/js/busy.js"></script>
+		<script src="wlclient/js/diagnosticDialog.js"></script>
+		<script src="wlclient/js/deviceAuthentication.js"></script>
+		<script src="wlclient/js/window.js"></script>
+		<script src="wlclient/js/worklight.js"></script>
+		<script src="wlclient/js/gadgetCommunicationAPI.js"></script>
+		<script src="wlclient/js/wlclient.js"></script>
+		<script src="wlclient/js/wlfragments.js"></script>
+		<script src="wlclient/js/encryptedcache.js"></script>
+		<script src="wlclient/js/jsonstore/jsonstore.js"></script>
+		<script src="wlclient/js/challengeHandlers/antiXSRFChallengeHandler.js"></script>
+		<script src="wlclient/js/challengeHandlers/authenticityChallengeHandler.js"></script>
+		<script src="wlclient/js/challengeHandlers/deviceAuthAutoProvisioningChallengeHandler.js"></script>
+		<script src="wlclient/js/challengeHandlers/deviceAuthNoProvisioningChallengeHandler.js"></script>
+		<script src="wlclient/js/challengeHandlers/remoteDisableChallengeHandler.js"></script><script>window.$ = window.jQuery = WLJQ;</script>
+<script src="jqueryMobile/jquery.mobile-1.3.1.js"></script>
+
+    </head>
+    <body id="content" style="display: none;">
+	
+        <div data-role="page" data-theme="c" id="page">
+            <div data-position="fixed" data-role="header" id="header">
+			
+                <h3>Calculator</h3>
+            </div>
+            <div data-role="content" style="padding: 15px"></div>
+            <form name="calculator">
+                <input name="ans" type="text" value="">
+			
+                <table>
+				
+                    <tbody>
+					
+                        <tr>
+						
+                            <td><input onClick="document.calculator.ans.value+='7'" type="button" value="7"></td>
+						<td><input onClick="document.calculator.ans.value+='8'" type="button" value="8"></td>
+						<td><input onClick="document.calculator.ans.value+='9'" type="button" value="9"></td>
+						<td><input onClick="document.calculator.ans.value+='+'" type="button" value="+"></td>
+						<td rowspan="4"> <input id="answer" onClick="document.calculator.ans.value=e()" type="button" value="="> </td>
+					
+                        </tr>
+					
+                        <tr>
+						
+                            <td><input onClick="document.calculator.ans.value+='4'" type="button" value="4"></td>
+						<td><input onClick="document.calculator.ans.value+='5'" type="button" value="5"></td>
+						<td><input onClick="document.calculator.ans.value+='6'" type="button" value="6"></td>
+						<td><input onClick="document.calculator.ans.value+='-'" type="button" value="-"></td>
+						
+					
+                        </tr>
+					
+                        <tr>
+						
+                            <td><input onClick="document.calculator.ans.value+='1'" type="button" value="1"></td>
+						<td><input onClick="document.calculator.ans.value+='2'" type="button" value="2"></td>
+						<td><input onClick="document.calculator.ans.value+='3'" type="button" value="3"></td>
+						<td><input onClick="document.calculator.ans.value+='*'" type="button" value="*"></td>
+						
+					
+                        </tr>
+					
+                        <tr>
+						
+                            <td><input onClick="document.calculator.ans.value+='.'" type="button" value="."></td>
+						<td><input onClick="document.calculator.ans.value+='0'" type="button" value="0"></td>
+						<td><input onClick="document.calculator.ans.value+='/'" type="button" value="/"></td>
+						<td><input type="reset" value="reset"></td>
+						
+					
+                        </tr>
+				
+                    </tbody>
+			
+                </table>
+            </form>
+	
+        </div>
+	
+	Calculator
+	<!--application UI goes here-->
+	<script src="js/initOptions.js"></script>
+	<script src="js/Calculator.js"></script>
+	<script src="js/messages.js"></script>
+
+
+    </body>
+</html>

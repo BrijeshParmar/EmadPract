@@ -1,0 +1,17 @@
+#Deployment data.
+#Thu Dec 28 10:31:42 IST 2017
+app.login.displaytype=POPUP
+app.displayname=FirstApp
+app.height=460
+app.author.name=application's author
+app.author.email=application author's e-mail
+app.version=1.0
+app.environment=common
+app.unpacked.size.default=773713
+app.mainfile=FirstApp.html
+app.description=FirstApp
+app.login.popup.width=920
+app.checksum.default=2508188270
+app.width=320
+app.login.popup.height=610
+app.id=FirstApp

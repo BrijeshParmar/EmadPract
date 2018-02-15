@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.WebProject">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry kind="con" path="com.ibm.etools.webtools.dojo.jscontainer"/>
+	<classpathentry kind="con" path="com.worklight.studio.plugin.wizards.newproject.apiLibrary"/>
+	<classpathentry excluding="www/dojox/mobile/deviceTheme.js|www/layers/core-web-layer.js|www/layers/mobile-ui-layer.js|apps/SqAdapterCloud/common/**/bower_components/*|apps/SqAdapterCloud/common/**/node_modules/*|www/dojo/dojo.js|apps/SqAdapterCloud/common/**/*.min.js|**/native/**|**/nativeEmptyApp/**" kind="src" path=""/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,17 @@
+#Deployment data.
+#Mon Jan 15 23:22:40 IST 2018
+app.login.displaytype=POPUP
+app.displayname=Calculator
+app.height=460
+app.author.name=application's author
+app.author.email=application author's e-mail
+app.version=1.0
+app.environment=common
+app.unpacked.size.default=774549
+app.mainfile=Calculator.html
+app.description=Calculator
+app.login.popup.width=920
+app.checksum.default=3405836756
+app.width=320
+app.login.popup.height=610
+app.id=Calculator

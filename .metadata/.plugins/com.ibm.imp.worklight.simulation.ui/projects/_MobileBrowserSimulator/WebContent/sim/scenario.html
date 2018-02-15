@@ -1,0 +1,60 @@
+<div id="scenario_widget">
+	<table><tbody>
+		<tr>
+			<td style="width:auto;">
+				<label id="sim_scenario_unsaved_marker" class="scenarioUnsavedLabel scenarioSaved">*</label>
+			</td>
+			<td class="scenarioHeaderCell">
+				<label id="sim_scenario_name_label"></label>
+			</td>
+			<td class="scenarioHeaderCellResizable">
+				<input type="text" name="scenarioName" id="sim_scenario_name_textbox" value=""
+					class="scenarioHeaderCellResizable"
+					data-dojo-id="sim_scenario_name_textbox"
+				    dojoType="dijit.form.ValidationTextBox"
+				    trim="true">
+			</td>
+			<td class="scenarioHeaderCell">
+				<button data-dojo-type="dijit.form.Button" type="button" id="createNewScenarioButton"
+					data-dojo-id="sim_scenario_new_button">
+				</button>
+			</td>
+			<td class="scenarioHeaderCell">
+				<div class="importButtonWrapper">
+					<button data-dojo-type="dijit.form.Button" type="button"
+						data-dojo-id="sim_scenario_import_button" label="Import" data-dojo-attach-event="onClick:dojo.byId('scenario_import_button').click()"></button>
+					<input type="file" name="upload" id="scenario_import_button" data-dojo-id="sim_scenario_import_button" class="importButtonReal"/>
+				</div>
+			</td>
+		</tr>
+	</tbody></table>
+
+	<div id="scenarioMapDiv"></div>
+	<div id="sim_scenario_play_toolbar">
+		<button data-dojo-type="dijit.form.Button" class="noSelect" id="scenarioPlayButton"
+			type="button" data-dojo-id="sim_scenario_play_button"></button>
+		<button data-dojo-type="dijit.form.Button" class="noSelect" id="scenarioRestartButton"
+			type="button" data-dojo-id="sim_scenario_restart_button"></button>
+		<button data-dojo-type="dijit.form.Button" type="button" id="scenarioSaveButton" data-dojo-id="sim_scenario_save_button"
+			class="pullRight"></button>
+		<button data-dojo-type="dijit.form.Button" type="button"  id="scenarioEditButton" data-dojo-id="sim_scenario_edit_button"
+			class="pullRight"></button>
+	</div>
+
+	<div id="newEditMapModal" data-dojo-type="dijit.Dialog" data-dojo-id="sim_scenario_open_new_editor" draggable="false"
+	    open="false"  href="sim/scenarioEditor.html" parseOnLoad="true" preload="true"></div>
+	
+	<div id="scenarioWarningDialog" data-dojo-id="sim_scenario_unsaved_dialog" data-dojo-type="dijit.Dialog">
+				<table>
+				<tr id="sim_scenario_unsaved_text"></tr>
+				<tr>
+					<td align="center" colspan="2">
+						<button data-dojo-type="dijit.form.Button" type="button" onclick="getService('Scenario').continueFunction();" data-dojo-id="sim_scenario_unsaved_continue_button"></button>
+						<button data-dojo-type="dijit.form.Button" type="button" onclick="getService('Scenario').hideWarningDialog();" data-dojo-id="sim_scenario_unsaved_cancel_button"></button>
+					</td>
+				</tr>
+			</table>
+				
+		</div>
+	
+</div>

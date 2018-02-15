@@ -1,0 +1,37 @@
+CACHE MANIFEST
+CACHE:
+# Created 1514437305152
+common/js/base.js
+common/js/busy.js
+common/js/containerCommunicationAPI.js
+common/js/wlcommon.js
+common/js/wljq.js
+css/FirstApp.css
+FirstApp.html
+images/icon.png
+images/icon114x114.png
+images/icon57x57.png
+images/icon72x72.png
+images/thumbnail.png
+js/FirstApp.js
+js/initOptions.js
+js/messages.js
+wlclient/css/wlclient.css
+wlclient/images/empty.gif
+wlclient/js/challengeHandlers/antiXSRFChallengeHandler.js
+wlclient/js/challengeHandlers/authenticityChallengeHandler.js
+wlclient/js/challengeHandlers/deviceAuthAutoProvisioningChallengeHandler.js
+wlclient/js/challengeHandlers/deviceAuthNoProvisioningChallengeHandler.js
+wlclient/js/challengeHandlers/remoteDisableChallengeHandler.js
+wlclient/js/deviceAuthentication.js
+wlclient/js/diagnosticDialog.js
+wlclient/js/encryptedcache.js
+wlclient/js/gadgetCommunicationAPI.js
+wlclient/js/jsonstore/jsonstore.js
+wlclient/js/messages.js
+wlclient/js/window.js
+wlclient/js/wlclient.js
+wlclient/js/wlfragments.js
+wlclient/js/worklight.js
+NETWORK:
+*

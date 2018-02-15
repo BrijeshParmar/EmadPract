@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.worklight.studio.plugin.launch.invoke.procedure.configurationType">
+<stringAttribute key="adapterName" value="NewsAdapter"/>
+<stringAttribute key="jsFunctionParameters" value="'india'"/>
+<stringAttribute key="procedureName" value="getNews"/>
+<stringAttribute key="projectName" value="htAdapter"/>
+</launchConfiguration>

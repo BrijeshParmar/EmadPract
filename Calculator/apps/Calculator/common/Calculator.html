@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<link rel="shortcut icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link href="jqueryMobile/jquery.mobile-1.3.1.css" rel="stylesheet">
+<link rel="stylesheet" href="css/Calculator.css">
+<script>window.$ = window.jQuery = WLJQ;</script>
+<script src="jqueryMobile/jquery.mobile-1.3.1.js"></script>
+</head>
+<body id="content" style="display: none;">
+	<div data-role="page" id="page" data-theme="c">
+		<div data-role="header" id="header" data-position="fixed">
+			<h3>Calculator</h3>
+		</div>
+		<div data-role="content" style="padding: 15px"></div>
+		<form name="calculator">
+		<input type="text" name="ans" value="">
+			<table>
+				<tbody>
+					<tr>
+						<td><input type="button" value="7" onClick="document.calculator.ans.value+='7'"></td>
+						<td><input type="button" value="8" onClick="document.calculator.ans.value+='8'"></td>
+						<td><input type="button" value="9" onClick="document.calculator.ans.value+='9'"></td>
+						<td><input type="button" value="+" onClick="document.calculator.ans.value+='+'"></td>
+						<td rowspan="4"> <input type="button" id="answer" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"> </td>
+					</tr>
+					<tr>
+						<td><input type="button" value="4" onClick="document.calculator.ans.value+='4'"></td>
+						<td><input type="button" value="5" onClick="document.calculator.ans.value+='5'"></td>
+						<td><input type="button" value="6" onClick="document.calculator.ans.value+='6'"></td>
+						<td><input type="button" value="-" onClick="document.calculator.ans.value+='-'"></td>
+						
+					</tr>
+					<tr>
+						<td><input type="button" value="1" onClick="document.calculator.ans.value+='1'"></td>
+						<td><input type="button" value="2" onClick="document.calculator.ans.value+='2'"></td>
+						<td><input type="button" value="3" onClick="document.calculator.ans.value+='3'"></td>
+						<td><input type="button" value="*" onClick="document.calculator.ans.value+='*'"></td>
+						
+					</tr>
+					<tr>
+						<td><input type="button" value="." onClick="document.calculator.ans.value+='.'"></td>
+						<td><input type="button" value="0" onClick="document.calculator.ans.value+='0'"></td>
+						<td><input type="button" value="/" onClick="document.calculator.ans.value+='/'"></td>
+						<td><input type="reset" value="reset"></td>
+						
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+	
+	Calculator
+	<!--application UI goes here-->
+	<script src="js/initOptions.js"></script>
+	<script src="js/Calculator.js"></script>
+	<script src="js/messages.js"></script>
+</body>
+</html>

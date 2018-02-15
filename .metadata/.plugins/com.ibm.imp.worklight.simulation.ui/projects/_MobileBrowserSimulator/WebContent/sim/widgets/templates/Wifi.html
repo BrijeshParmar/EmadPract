@@ -1,0 +1,40 @@
+<div class="${baseClass} " style="margin: 0 27px 0 2px;">
+	<div style="float: right; margin-top: 27px; margin-right: -30px;"
+		data-dojo-attach-event='onclick: deleteWifi' class="wifiDelete"></div>
+
+		<div class="dataWrapper" data-dojo-attach-point="dataWrapper"
+			style="margin:  0; border-style: solid; border-width: 1px; border-color: rgb(192, 184, 184); padding: 0 5px">
+			<div class="signalWrapper" style="float: left">
+				<img alt="" src="./images/wifi_25.png"
+					data-dojo-attach-point="signalImg" class="signalImg"
+					style="width: 40px; height: 40px; padding-bottom: 5px;">
+				<div style="padding-left: 5px;" class="wifiSignal">${strength}%</div>
+			</div>
+			<div
+				style="float: left; margin-left: 15px; padding: 5px 0; min-width: 110px">
+				<div class="wifiSSID" style="height: 20px; padding-left: 3px;">
+					<b>${SSID}</b>
+				</div>
+				<div class="wifiMac" style="height: 20px; padding-left: 3px;">${MAC}</div>
+				<div class="wifiVisible" style="height: 20px; color: black;">
+					<input data-dojo-attach-event='onclick: changeVisible'
+						type="checkbox" data-dojo-attach-point="checkboxVisible">
+					Visible
+				</div>
+
+			</div>
+			<div style="float: right; margin-left: 10px; padding: 5px 0;">
+				<div class="wifiConnectedText"
+					data-dojo-attach-point="connectedText">
+					<b>Connected</b>
+				</div>
+				<div style="height: 20px;">
+					<button data-dojo-type="dijit.form.Button" type="button"
+						class="wifiConnectButton" data-dojo-attach-point="connectedButton">Connect</button>
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+
+		</div>
+	<div style="clear: both;"></div>
+</div>

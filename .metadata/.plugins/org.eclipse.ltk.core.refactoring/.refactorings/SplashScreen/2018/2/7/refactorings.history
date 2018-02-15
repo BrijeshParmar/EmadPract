@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SplashScreen/apps/SplashScreen/common/images/Abstract Red wallpaper - HD Wallpaper Expert.jpg&apos; to &apos;redimage.jpg&apos;" description="Rename resource &apos;Abstract Red wallpaper - HD Wallpaper Expert.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="apps/SplashScreen/common/images/Abstract Red wallpaper - HD Wallpaper Expert.jpg" name="redimage.jpg" stamp="1518574274039" updateReferences="true"/>
+</session>

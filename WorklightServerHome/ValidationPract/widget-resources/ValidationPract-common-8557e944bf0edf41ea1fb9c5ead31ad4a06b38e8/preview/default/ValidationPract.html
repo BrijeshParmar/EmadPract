@@ -1,0 +1,123 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+        <meta charset="UTF-8">
+	
+        <title>ValidationPract</title>
+	
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+	
+        <link href="wlclient/css/wlclient.css" rel="stylesheet">
+        <link href="images/favicon.png" rel="shortcut icon">
+	
+        <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+	
+        <link href="css/ValidationPract.css" rel="stylesheet">
+	
+        <script>
+
+		// Define WL namespace.
+
+		var WL = WL ? WL : {};
+
+
+
+		/**
+
+		 * WLClient configuration variables.
+
+		 * Values are injected by the deployer that packs the gadget.
+
+		 */
+
+		WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "ValidationPract",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "preview",
+   "HEIGHT": 460,
+   "LOGIN_DISPLAY_TYPE": "popup",
+   "LOGIN_POPUP_HEIGHT": 610,
+   "LOGIN_POPUP_WIDTH": 920,
+   "PREVIEW_ENVIRONMENT": "common",
+   "WIDTH": 320,
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/ValidationPract\/common\/"
+};</script>
+		<script src="common/js/wljq.js"></script>
+		<script src="common/js/base.js"></script>
+		<script src="common/js/containerCommunicationAPI.js"></script>
+		<script src="wlclient/js/messages.js"></script>
+		<script src="common/js/wlcommon.js"></script>
+		<script src="common/js/busy.js"></script>
+		<script src="wlclient/js/diagnosticDialog.js"></script>
+		<script src="wlclient/js/deviceAuthentication.js"></script>
+		<script src="wlclient/js/window.js"></script>
+		<script src="wlclient/js/worklight.js"></script>
+		<script src="wlclient/js/gadgetCommunicationAPI.js"></script>
+		<script src="wlclient/js/wlclient.js"></script>
+		<script src="wlclient/js/wlfragments.js"></script>
+		<script src="wlclient/js/encryptedcache.js"></script>
+		<script src="wlclient/js/jsonstore/jsonstore.js"></script>
+		<script src="wlclient/js/challengeHandlers/antiXSRFChallengeHandler.js"></script>
+		<script src="wlclient/js/challengeHandlers/authenticityChallengeHandler.js"></script>
+		<script src="wlclient/js/challengeHandlers/deviceAuthAutoProvisioningChallengeHandler.js"></script>
+		<script src="wlclient/js/challengeHandlers/deviceAuthNoProvisioningChallengeHandler.js"></script>
+		<script src="wlclient/js/challengeHandlers/remoteDisableChallengeHandler.js"></script><script>window.$ = window.jQuery = WLJQ;</script>
+	<script>
+	function registerFunction(){
+		var email=document.getElementById("ruserid").value;
+		var name=document.getElementById("rname").value;
+		var age=document.getElementById("rage").value;
+		var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		if (!filter.test(email.value)) {
+    		alert('Please provide a valid email address');
+    		email.focus;
+		}
+		if(!(/^[A-Za-z ]+$/.test(name)&& name.length > 10)){
+			alert('Please Provide Name')
+			name.focus;
+		}
+		if(age<18 || age>60){
+			alert('Please Provide Proper Age')
+			age.focus;
+		}
+	</script>
+
+    </head>
+    <body id="content" style="display: none;">
+	
+        <div data-role="page" data-theme="e" id="register">
+            <h1>Register</h1>
+            <input id="ruserid" placeholder="Enter Email/Userid" type="email">
+            <br>
+            <input id="rpassword" placeholder="Enter Password" type="password">
+            <br>
+            <input id="rname" placeholder="Name" type="text">
+            <br> 
+            <input id="rage" placeholder="Enter Age here" type="number">
+            <br>
+            <select id="rcity">
+			<option>Ahmedabad</option>
+			<option>Vadodara</option>
+			<option>Gandhinagar</option>
+		</select> 
+		<input onclick="registerFunction();" type="button" value="Register">
+            <br>
+	
+        </div>
+	
+        <div data-role="page" data-theme="e" id="home">
+            <input id="t1" type="text"> 
+		<input id="t2" type="text">
+		<input id="t3" type="text">
+	
+        </div>
+
+	
+        <script src="js/initOptions.js"></script>
+	<script src="js/ValidationPract.js"></script>
+	<script src="js/messages.js"></script>
+
+    </body>
+</html>

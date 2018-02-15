@@ -1,0 +1,62 @@
+Dec 27, 2017 7:52:15 AM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Dec 27, 2017 7:52:15 AM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project FirstApp-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Dec 27, 2017 7:52:24 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-common' successfully on Worklight Server
+Dec 27, 2017 7:54:47 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-common' successfully on Worklight Server
+Dec 27, 2017 8:02:33 AM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project FirstApp-project-customization
+Dec 27, 2017 8:27:47 AM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Dec 27, 2017 8:27:47 AM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project FirstApp-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Dec 27, 2017 8:27:55 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-mobilewebapp-1.0' successfully on Worklight Server
+Dec 27, 2017 11:14:16 PM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project FirstApp-project-customization
+Dec 28, 2017 9:41:00 AM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Dec 28, 2017 9:41:00 AM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project FirstApp-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Dec 28, 2017 9:41:21 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-mobilewebapp-1.0' successfully on Worklight Server
+Dec 28, 2017 10:06:28 AM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project FirstApp-project-customization
+Dec 28, 2017 10:06:40 AM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Dec 28, 2017 10:06:41 AM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project FirstApp-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Dec 28, 2017 10:06:57 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-common' successfully on Worklight Server
+Dec 28, 2017 10:06:59 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-mobilewebapp-1.0' successfully on Worklight Server
+Dec 28, 2017 10:07:03 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-android-1.0' successfully on Worklight Server
+Dec 28, 2017 10:10:11 AM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project FirstApp-project-customization
+Dec 28, 2017 10:27:45 AM com.worklight.report.impl.GadgetReportsServiceImpl loadProperties
+INFO: FWLSE3005I: Application raw reports are disabled.
+Dec 28, 2017 10:27:45 AM com.worklight.server.bundle.project.ProjectBundleManager doStart
+INFO: FWLST0010I: ====== Started server for project FirstApp-project-customization; Worklight version=5.0.6.20130416-0125-developer-edition
+Dec 28, 2017 10:27:58 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-common' successfully on Worklight Server
+Dec 28, 2017 10:27:59 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-mobilewebapp-1.0' successfully on Worklight Server
+Dec 28, 2017 10:28:01 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-android-1.0' successfully on Worklight Server
+Dec 28, 2017 10:30:27 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-common' successfully on Worklight Server
+Dec 28, 2017 10:30:28 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-mobilewebapp-1.0' successfully on Worklight Server
+Dec 28, 2017 10:30:28 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-android-1.0' successfully on Worklight Server
+Dec 28, 2017 10:31:52 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-common' successfully on Worklight Server
+Dec 28, 2017 10:31:53 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-mobilewebapp-1.0' successfully on Worklight Server
+Dec 28, 2017 10:31:54 AM com.worklight.gadgets.bean.WidgetServiceBean handleSingleEnvironmentDeployable
+INFO: FWLSE0085I: Deployed app 'FirstApp-android-1.0' successfully on Worklight Server
+Dec 28, 2017 10:34:54 AM com.worklight.server.bundle.project.ProjectBundleManager doStop
+INFO: FWLST0012I: ====== Stopped server for project FirstApp-project-customization

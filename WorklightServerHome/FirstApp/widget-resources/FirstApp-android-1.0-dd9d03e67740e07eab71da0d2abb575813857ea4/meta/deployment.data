@@ -1,0 +1,19 @@
+#Deployment data.
+#Thu Dec 28 10:31:43 IST 2017
+app.login.displaytype=EMBEDDED
+app.displayname=FirstApp
+app.authenticity.shareddata=Replace this text with the public key of the certificate with which you sign the APK. For details see the Worklight Developer's Reference Guide.
+app.height=460
+app.author.name=application's author
+app.author.email=application author's e-mail
+app.version=1.0
+app.environment=android
+app.unpacked.size.default=1017307
+app.mainfile=FirstApp.html
+app.description=FirstApp
+app.login.popup.width=920
+app.checksum.default=1444164952
+app.authenticity.obscuredata=18.542-8.464-12.591-28.283-32.916-38.088-18.498-33.868-5.72-40.204-5.185-26.933
+app.width=320
+app.login.popup.height=610
+app.id=FirstApp
