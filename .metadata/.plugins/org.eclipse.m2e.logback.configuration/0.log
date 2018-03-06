@@ -235,3 +235,12 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/SqAdapterCloud
 2018-02-15 09:25:40,799 [Worker-1] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@595e64bc{HTTP/1.1}{0.0.0.0:9988}
 2018-02-15 09:25:40,799 [Worker-1] INFO  org.eclipse.jetty.server.Server - Started @40245ms
 2018-02-15 09:25:40,909 [Worker-1] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@4e5783dd{/dojoLib,file:/E:/EMADWorklight/dojoLib/toolkit/dojo/,AVAILABLE}
+2018-02-18 20:05:30,933 [Worker-11] INFO  org.eclipse.jetty.util.log - Logging initialized @48240ms
+2018-02-18 20:05:31,095 [Worker-11] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2018-02-18 20:05:31,126 [Worker-11] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2892fa25{/requests,null,AVAILABLE}
+2018-02-18 20:05:31,151 [Worker-11] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@216b05ea{HTTP/1.1}{0.0.0.0:9988}
+2018-02-18 20:05:31,151 [Worker-11] INFO  org.eclipse.jetty.server.Server - Started @48470ms
+2018-02-18 20:05:31,219 [Worker-11] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@71e0efa8{/dojoLib,file:/E:/EMADWorklight/dojoLib/toolkit/dojo/,AVAILABLE}
+2018-02-18 23:09:41,653 [Worker-30] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2018-02-18 23:09:41,670 [Worker-30] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5127f3a1{HTTP/1.1}{0.0.0.0:56181}
+2018-02-18 23:09:41,671 [Worker-30] INFO  org.eclipse.jetty.server.Server - Started @11099027ms

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ValidationPract</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="stylesheet" href="css/ValidationPract.css">
+	<script>window.$ = window.jQuery = WLJQ;</script>
+	<script>
+	
+	</script>
+</head>
+<body id="content" style="display: none;">
+	<div data-role="page" id="register" data-theme="e">
+		<h1>Register</h1>
+		<input type="email" id="ruserid" placeholder="Enter Email/Userid"><br>
+		<input type="password" id="rpassword" placeholder="Enter Password"><br>
+		<input type="text" id="rname" placeholder="Name"><br> <input
+			type="number" id="rage" placeholder="Enter Age here"><br>
+		<select id="rcity">
+			<option>Ahmedabad</option>
+			<option>Vadodara</option>
+			<option>Gandhinagar</option>
+		</select> 
+		<input type="button" onclick="registerFunction();" value="Register"><br>
+	</div>
+	<div data-role="page" id="home" data-theme="e">
+		<input type="text" id="t1"> 
+		<input type="text" id="t2">
+		<input type="text" id="t3">
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="js/initOptions.js"></script>
+	<script src="js/ValidationPract.js"></script>
+	<script src="js/messages.js"></script>
+	
+</body>
+</html>
