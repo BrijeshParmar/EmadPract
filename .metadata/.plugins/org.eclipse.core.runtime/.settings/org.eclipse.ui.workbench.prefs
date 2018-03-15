@@ -1,5 +1,5 @@
 //org.eclipse.ui.commands/state/com.ibm.etools.rpe.PortraitLandscapeCommand/org.eclipse.ui.commands.radioState=Portrait
-//org.eclipse.ui.commands/state/com.ibm.etools.rpe.internal.handlers.BrowserHandler/org.eclipse.ui.commands.radioState=ie
+//org.eclipse.ui.commands/state/com.ibm.etools.rpe.internal.handlers.BrowserHandler/org.eclipse.ui.commands.radioState=ff
 //org.eclipse.ui.commands/state/com.ibm.etools.rpe.internal.handlers.HorizontalVerticalHandler/org.eclipse.ui.commands.radioState=Horizontal
 //org.eclipse.ui.commands/state/com.ibm.etools.rpe.internal.handlers.PageHandler/org.eclipse.ui.commands.radioState=Source
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false

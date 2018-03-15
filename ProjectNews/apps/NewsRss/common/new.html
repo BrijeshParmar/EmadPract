@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+    	<head>
+    		<meta charset="UTF-8">
+    		<title>Project01</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    		<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+ 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    	</head>
+    	<body>
+    			  <nav>
+		    <!-- <div class="nav-wrapper" style="background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);"> -->
+		    <div class="nav-wrapper" style="background: linear-gradient(45deg, #f44336, #fb8c00, #ffc107, #ffff00);">
+		      <a href="new.html" class="brand-logo">News App</a>
+		    </div>
+		  </nav>
+    		<div class="container">
+    		<br><br>
+    		<div id="myNews">
+    			<div class="row">
+    				<div class="col s12 m4">
+    					<div id="science" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<i class="fas fa-flask" style="font-size:60px;color:white;"></i>
+          <span class="white-text"></span>
+        </div>
+    				</div>
+    				<div class="col s12 m4">
+    					<div id="business" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<i class="fas fa-dollar-sign" style="font-size:60px;color:white;"></i>
+          <span class="white-text">
+          </span>
+        </div>
+    				</div>
+    				<div class="col s12 m4">
+    					<div id="sports" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<i class="fas fa-football-ball" style="font-size:60px;color:white;"></i>
+          <span class="white-text">
+          </span>
+        </div>
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col s12 m4">
+    					<div id="tech" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<i class="fas fa-desktop" style="font-size:60px;color:white;"></i>
+          <span class="white-text">
+          </span>
+        </div>
+    				</div>
+    				<div class="col s12 m4">
+    					<div id="health" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<i class="fas fa-user-md" style="font-size:60px;color:white;"></i>
+          <span class="white-text">
+          </span>
+        </div>
+    				</div>
+    				<div class="col s12 m4">
+    					<div id="entertainment" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<i class="fab fa-youtube" style="font-size:60px;color:white;"></i>
+          <span class="white-text">
+          </span>
+        </div>
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col s12 m4">
+    					<div id="ustech" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<image src="./images/ustech.png" alt="">
+    					<!-- <i class="fas fa-dollar-sign" style="font-size:60px;color:white;"></i> -->
+          <span class="white-text">
+          </span>
+        </div>
+    				</div>
+    				<div class="col s12 m4">
+    					<div id="usbusiness" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<image src="./images/usbusin.png" alt="">
+    					<!-- <i class="fas fa-dollar-sign" style="font-size:60px;color:white;"></i> -->
+          <span class="white-text">
+          </span>
+        </div>
+    				</div>
+    				<div class="col s12 m4">
+    					<div id="usenter" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<image src="./images/usentert.png" alt="">
+    					<!-- <i class="fas fa-dollar-sign" style="font-size:60px;color:white;"></i> -->
+          <span class="white-text"></span>
+        </div>
+    				</div>
+    				
+    				<div class="col s12 m4">
+    					<div id="aljazeera" class="card-panel center-align" style="background: linear-gradient(-45deg, #448aff, #7e57c2,#f06292);">
+    					<image src="./images/usentert.png" alt="">
+    					<!-- <i class="fas fa-dollar-sign" style="font-size:60px;color:white;"></i> -->
+          <span class="white-text"></span>
+        </div>
+    				</div>
+    				
+    			</div>
+		
+		<center><a href="#aljazeera"><img src="./images/aljazeera.png" onclick="getNewsAl();" width="75" height="75"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="./images/arstechnica.png" onclick="getNewsArs();" id="#arstech" width="75" height="75">&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="./images/CBS.png" onclick="getNewsCBS();" id="#cbs" width="75" height="75"></center>
+		<center><img src="./images/bbc.png" onclick="getNewsBbc();" width="125" height="125">&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="./images/cryptonews.png" onclick="getNewsCry();" id="#crypto" width="125" height="125"></center>
+		<center><img src="./images/techcrunch.png" onclick="getNewsTec();" width="125" height="125">&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="./images/hackernews.png" onclick="getNewsHack();" id="#techcr" width="125" height="125"></center>
+		<center><img src="./images/goognews.png" onclick="getNewsGoo();" id="#arstech" width="75" height="75"></center>
+		
+		<!-- &nbsp;&nbsp;&nbsp;&nbsp;<a href="#aljazeera"><img src="./images/aljazeera.png" onclick="getNewsAl();" width="75" height="75"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="./images/arstechnica.png" onclick="getNewsArs();" id="#arstech" width="75" height="75">&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="./images/goognews.png" onclick="getNewsGoo();" id="#arstech" width="75" height="75">
+		&nbsp;&nbsp;&nbsp;&nbsp;<img src="./images/bbc.png" onclick="getNewsBbc();" width="125" height="125">&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="./images/techcrunch.png" onclick="getNewsTec();" id="#techcr" width="125" height="125">
+		&nbsp;&nbsp;&nbsp;&nbsp;<img src="./images/bbc.png" onclick="getNewsBbc();" width="125" height="125">&nbsp;&nbsp;&nbsp;&nbsp;
+		<img src="./images/techcrunch.png" onclick="getNewsTec();" id="#techcr" width="125" height="125">
+		<center><img src="./images/goognews.png" onclick="getNewsGoo();" id="#arstech" width="75" height="75"></center> -->
+		</div>
+		
+    		</div>
+    		
+    		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    		<script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    		<script type="text/javascript">
+    		
+    		</script>
+    	</body>
+</html>

@@ -19,7 +19,7 @@ public class NewsRss extends CordovaActivity implements WLInitWebFrameworkListen
 
 		WL.createInstance(this);
 
-		WL.getInstance().showSplashScreen(this);
+//		WL.getInstance().showSplashScreen(this);
 
 		WL.getInstance().initializeWebFramework(getApplicationContext(), this);
 		

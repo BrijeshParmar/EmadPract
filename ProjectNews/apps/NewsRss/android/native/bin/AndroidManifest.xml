@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.NewsRss" android:versionCode="1" android:versionName="1.0">  
-    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19"/>  
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="23"/>  
     <supports-screens android:smallScreens="false" android:normalScreens="true" android:largeScreens="false"/>  
     <uses-permission android:name="android.permission.INTERNET"/>  
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>  

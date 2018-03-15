@@ -1,8 +1,17 @@
 /css/main.css
 /filelist
+/images/1.png
+/images/aljazeera.png
+/images/arstechnica.png
+/images/bbc.png
+/images/CBS.png
+/images/cryptonews.png
 /images/entr.png
+/images/goognews.png
+/images/hackernews.png
 /images/icon.png
 /images/rss1.png
+/images/techcrunch.png
 /images/thumbnail.png
 /images/usbusin.png
 /images/usentert.png
@@ -18,6 +27,8 @@
 /js/initOptions.js
 /js/main.js
 /js/messages.js
+/new.html
+/video/Splashm.mp4
 /worklight/cordova.js
 /worklight/cordova_plugins.js
 /worklight/messages/de/messages.json
