@@ -13,11 +13,9 @@
  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 <body id="splashid">
-<div id="mainDiv">
+<div id="mainDiv" style="margin-top:150px;">
 	<center>
-		<video width="288" height="512" autoplay>
-			<source src="./video/Splashm.mp4" type="video/mp4">
-		</video>
+		<img src="./images/splash.gif" width="288" height="288" class="valign-wrapper"/>
 	</center>
 </div>
 <script>
@@ -25,7 +23,7 @@ $('document').ready(function(){
 	setTimeout(function(){
 	$('#splashid').empty();
 	$('#splashid').load("./new.html");
-	},5000);
+	},2600);
   });
 </script>
 </body>
