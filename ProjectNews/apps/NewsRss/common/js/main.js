@@ -12,8 +12,6 @@ function wlCommonInit(){
 		},3000);
 }*/
 
-
-      
 /*$('.carousel.carousel-slider').carousel({fullWidth: true});*/
 
 // card click event

@@ -129,8 +129,15 @@
     		<script src="js/initOptions.js"></script>
     		<script src="js/main.js"></script>
     		<script src="js/messages.js"></script>
-    		<script type="text/javascript">
-    		
-    		</script>
+    		<script>
+			$('document').ready(function(){
+			var networkState = navigator.connection.type;
+			if(networkState==Connection.NONE)
+			{
+				$('#myNews').empty();
+				$('#myNews').append("<center>"+"<img src='./images/nonet.png'"+"</center>");	
+			}
+  			});
+</script>
     	</body>
 </html>

@@ -15,7 +15,10 @@ function wlCommonInit(){
 }*/
 
 
-      
+function connectionfaiulure(){
+	$("#myNews").empty();
+	$("#myNews").append("<center>"+"<img src='./images/nonet.png'/>" +"</center>");
+} 
 /*$('.carousel.carousel-slider').carousel({fullWidth: true});*/
 
 // card click event
