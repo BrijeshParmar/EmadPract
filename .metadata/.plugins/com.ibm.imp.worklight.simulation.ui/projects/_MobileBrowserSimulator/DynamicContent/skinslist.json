@@ -1,2 +1,10 @@
 {"skins":[
+	{
+		"name":"android.etc",
+		"platform":"android"
+	},
+	{
+		"name":"android.next",
+		"platform":"android"
+	},
 ]}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="com.ibm.faceted.project.wizardFacetedProjectWizard.com.ibm.imp.worklight.project.wizard">
-		<item value="wst.web:1.0,rad.dojo:1.0,worklight.base:1.0" key="projectFacets"/>
+		<item value="wst.web:1.0,worklight.base:1.0,rad.dojo:1.0" key="projectFacets"/>
 		<item value="com.ibm.imp.workight.project.wizard.coreFacetSet.device:HTTP Server" key="primaryRuntime"/>
 		<item value="com.ibm.imp.workight.project.wizard.template.hybrid.application" key="projectTemplate"/>
 		<item value="com.ibm.imp.workight.project.wizard.coreFacetSet.device" key="coreFacetSet"/>

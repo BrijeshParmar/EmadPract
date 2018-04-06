@@ -1,0 +1,8 @@
+function wlCommonInit(){
+	
+}
+
+function callFunc()
+{
+	alert("Version : "+ device.version);
+}
